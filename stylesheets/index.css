@@ -1,0 +1,401 @@
+body{
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+
+
+}
+
+.menu{
+    display: none;
+}
+
+.header{
+    display: flex;
+    
+    padding-bottom: 2cm;
+    padding: 6mm 5mm 0mm 5mm;
+    width: 100%;
+    height: 25%;
+
+}
+.header-links{
+    display: flex;
+    margin-left: auto;
+    padding-right: 10mm;
+    
+}
+#top-logo{
+    
+    float: left;
+    width: 5cm;
+    
+    
+}
+#home, #contact, #blog, #events{
+    text-decoration: none;
+    margin-top: auto;
+    padding-right: 10mm;
+    display:inline-block;
+    width: max-content;
+    height: 50px;
+}
+#phone{
+    border-radius: 0.3cm;
+    display: flex;    
+    justify-content: center;
+    text-align: center;
+    background-color: #ffc900;
+    width: 7cm;
+    margin-left: auto
+}
+#phone-icon{
+    display: flex;
+    padding-left: 0;
+    width: 10mm;
+    height: 7mm;
+    margin-top: 5mm;
+    justify-content: left;
+    
+    
+}
+#phn-num{
+    display: flex;
+    font-size: 5mm;    
+    justify-content: center;
+    text-align: center;
+    margin-left: 5mm;
+}
+
+.explore{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    
+
+    
+}
+.tag-line{
+    flex-direction: column;
+    color: blue;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    
+}
+#tag-line1, #tag-line2, #tag-paragraph{
+    padding: 5mm;
+    margin: auto;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+#tag-line2{
+    text-underline-position: auto;
+}
+
+
+.explore-button{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    
+    
+}
+#explore-btn, #book{
+    border-radius: 2mm;
+    background-color:#2B2265 ;
+    color: white;
+    display: flex;
+    margin: auto;
+    
+    flex-direction: column;
+    width: 5cm;
+    height: 1.3cm;
+    text-align: center;
+    justify-content: center;
+
+}
+
+img{
+    width: 70%;
+}
+
+
+#car-photo{
+    display:flex;
+    
+    background-image: url("/home/dev/Downloads/test project 8/assets/h1_hero1.png");
+    background-repeat: repeat-x;
+    background-repeat: repeat-y ;
+    width: 100%;
+    margin-top: 2cm;
+    justify-content: center;
+    margin-bottom: 4cm;
+
+}
+#menu-btn{
+    background-color:#4c4c4c;
+    justify-content: right;
+    text-align: right;
+    margin-right: 5%;
+    padding-right: 5%;
+    height: 1.4cm;
+}
+
+
+@media screen and (max-width:768px) {
+    .menu {
+        margin-top: 1mm;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        text-align: right;
+        width: 100%;
+        height: 25mm;
+        
+        
+        
+        
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .header-links {
+        display: none;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+        margin-right: 100cm;
+        padding-right: 10cm;
+    }
+    
+}
+div.gallery-img{
+    
+    margin-bottom: 50%;
+}
+
+div.gallery {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10mm;
+    margin-bottom: 10mm;
+    margin: 5mm;
+    border: 1px solid #ccc;
+    float: left;
+    width: 30%;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  div.bookings{
+      margin-top: 5cm;
+      display: flex;
+      flex-direction: row;
+
+  }
+
+  div.bookings img{
+      
+      width: 50%;
+  }
+
+  div.about{
+    width: 50%;
+    margin-left: 2%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  #book{
+    background-color: #ffc900;
+}
+
+  @media screen and (max-width:760px) {
+      div.bookings{
+          flex-direction: column;
+        }
+        div.bookings img{
+            width: 100%;
+        }
+        div.about{
+            width: 100%;
+        }
+        div.gallery{
+            margin: auto;
+            width: 100%;
+        }
+        div.responsive-img{
+            display: none;
+        }
+      
+  }
+
+  div.customer{
+      width: 100%;
+      margin-top: 10%;
+      background-image: linear-gradient(to right,#6d8ffb ,#c297ea);;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+  }
+  div.founder img{
+      
+      width: 15%;
+      margin-left: 35%;
+      margin-right: 2%;
+  }
+  div.founder{
+      display: flex;
+      margin-bottom: 10%;
+  }
+  div.video{
+      border-radius: 2mm;
+      display: flex;
+      width: 99%;
+      /*! margin-left: 5%; */
+      margin-top: 2%;
+
+      justify-content: center;
+  }
+
+  div.remaining-photos{
+      display: flex;
+      flex-direction: row;
+      
+  }
+  
+  div.footer-links{
+      background-image: linear-gradient(to right,#1b3068 , #0f1c42);;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      
+  }
+  div.sec1, div.sec2{
+      display: flex;
+      flex-direction: row;
+      width: 25%;
+
+  }
+  .social-logo{
+      display: flex;
+      flex-direction: row;
+      width: 10%;
+      padding: 3%
+  }
+
+
+  .container{
+	max-width: 1170px;
+	margin:auto;
+	
+}
+.row{
+	display: flex;
+	/*! flex-wrap: wrap; */
+	flex-direction: row;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #12192C;
+    padding: 30px 0;
+	width: 100%;
+    margin-top: 1%;
+	
+    bottom:0;
+  
+}
+.footer-col{
+   width: 20%;
+   padding-left: 10px;
+ 
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	/* background-color: rgba(255,255,255,0.2); */
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	
+}
+
+/*responsive*/
+@media(max-width: 767px){
+    .row{
+        flex-direction: column;
+    }
+    .end-logo{
+        width: 30%;
+    }
+  .footer-col{
+    width: 30%;
+    
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 300px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+
+
+  
